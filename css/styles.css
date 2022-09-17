@@ -1,0 +1,89 @@
+/* КОЛЬОРИ АКЦЕНТІВ #2196F3
+КОЛЬОРИ ЗАГОЛОВКІВ #212121
+КОЛІР ТЕКСТУ #757575
+КОЛІР ТЕКСТУ ФУТЕРА rgba(255, 255, 255, 0.6);  */
+
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --accent-text-color: #2196f3;
+  --primary-button-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #f5f5f5;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+/* SITE NAV */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.contact-nav .link {
+  color: var(--primary-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+/* HERO */
+.hero {
+  background-color: gray;
+}
+.hero-title {
+  color: #ffffff;
+}
+/* SECTION */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.advences-list .title {
+  color: var(--title-text-color);
+}
+
+/* BUTTON */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--accent-text-color);
+}
+
+.button.primary {
+  color: var(--primary-button-color);
+  background-color: var(--accent-text-color);
+}
