@@ -15,6 +15,9 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
 .logo {
   color: #2196f3;
 }
@@ -41,4 +44,8 @@ body {
 
 .site-nav .link.current {
   color: var(--accent-text-color);
+}
+
+.contact-adress {
+  font-style: normal;
 }

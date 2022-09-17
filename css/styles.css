@@ -33,6 +33,7 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-text-color);
+  cursor: pointer;
 }
 
 .contact-nav .link {
@@ -81,9 +82,21 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
 }
 
 .button.primary {
   color: var(--primary-button-color);
   background-color: var(--accent-text-color);
+}
+
+.contact-adress {
+  font-style: normal;
+}
+
+.footer {
+  background-color: aquamarine;
+}
+.site-nav.link {
+  color: var(--primary-button-color);
 }
