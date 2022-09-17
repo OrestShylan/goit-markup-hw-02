@@ -20,12 +20,21 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo {
   color: #2196f3;
 }
 
 /* SITE NAV */
-
+.web.logo {
+  color: var(--accent-text-color);
+}
+.studio.logo {
+  color: var(--title-text-color);
+}
 .site-nav .link {
   color: var(--title-text-color);
 }
