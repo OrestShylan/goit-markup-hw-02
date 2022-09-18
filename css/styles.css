@@ -166,7 +166,7 @@ body {
 }
 /* BUTTON */
 
-.button {
+.button.primary {
   color: var(--primary-button-color);
   background-color: var(--accent-text-color);
   cursor: pointer;
@@ -175,8 +175,8 @@ body {
   line-height: 1.87;
 }
 
-.button:focus,
-.button:hover {
+.button.primary:focus,
+.button.primary:hover {
   color: var(--accent-text-color);
   background-color: var(--primary-button-color);
 }
