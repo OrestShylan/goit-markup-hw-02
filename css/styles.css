@@ -177,8 +177,7 @@ body {
 
 .button.primary:focus,
 .button.primary:hover {
-  color: var(--accent-text-color);
-  background-color: var(--primary-button-color);
+  background-color: #188ce8;
 }
 
 .contact-adress {
