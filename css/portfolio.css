@@ -4,6 +4,7 @@
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --accent-text-color: #2196f3;
   --primary-button-color: #ffffff;
+  --button-color-portfolio: #f5f4fa;
 }
 
 body {
@@ -20,6 +21,26 @@ body {
 }
 .logo {
   color: #2196f3;
+}
+
+.web.logo {
+  color: var(--accent-text-color);
+}
+.studio.logo {
+  color: var(--title-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* SITE NAV */
@@ -45,7 +66,37 @@ body {
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
+.site-nav.link {
+  color: var(--primary-button-color);
+}
 
 .contact-adress {
   font-style: normal;
+}
+
+.footer {
+  background-color: aquamarine;
+}
+
+/* SECTION TITLE */
+.section-title.title {
+  color: var(--title-text-color);
+}
+
+/* SECTION TEXT */
+.section.text {
+  color: var(--primary-text-color);
+}
+
+/* BUTTON */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--button-color-portfolio);
+  cursor: pointer;
+}
+.button.primary:focus,
+.button.primary:hover {
+  color: var(--primary-button-color);
+  background-color: var(--accent-text-color);
 }
