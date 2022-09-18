@@ -5,11 +5,13 @@
   --accent-text-color: #2196f3;
   --primary-button-color: #ffffff;
   --button-color-portfolio: #f5f4fa;
+  --footer-color: #2f303a;
 }
 
 body {
   color: var(--primary-text-color);
   background-color: #f5f5f5;
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -21,6 +23,10 @@ body {
 }
 .logo {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .web.logo {
@@ -28,6 +34,10 @@ body {
 }
 .studio.logo {
   color: var(--title-text-color);
+}
+
+.studio-logo-footer {
+  color: var(--primary-button-color);
 }
 
 .visually-hidden {
@@ -47,6 +57,9 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -68,24 +81,32 @@ body {
 }
 .site-nav.link {
   color: var(--primary-button-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .contact-adress {
   font-style: normal;
 }
 
-.footer {
-  background-color: aquamarine;
-}
-
 /* SECTION TITLE */
 .section-title.title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /* SECTION TEXT */
 .section.text {
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 /* BUTTON */
@@ -94,9 +115,27 @@ body {
   color: var(--title-text-color);
   background-color: var(--button-color-portfolio);
   cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
-.button.primary:focus,
-.button.primary:hover {
+.button:focus,
+.button:hover {
   color: var(--primary-button-color);
   background-color: var(--accent-text-color);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--footer-color);
+}
+
+.link.footer {
+  color: var(--footer-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
